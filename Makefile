@@ -1,6 +1,6 @@
 install:
 	npm ci
-	chmod +x bin/brain-games.js bin/brain-even.js bin/brain-calc.js bin/brain-gcd.js bin/brain-progression.js
+	chmod +x bin/brain-games.js bin/brain-even.js bin/brain-calc.js bin/brain-gcd.js bin/brain-progression.js bin/brain-prime.js
 
 brain-games:
 	node bin/brain-games.js
@@ -16,6 +16,9 @@ brain-gcd:
 
 brain-progression:
 	node bin/brain-progression.js
+
+brain-prime:
+	node bin/brain-prime.js
 
 publish:
 	npm publish --dry-run
