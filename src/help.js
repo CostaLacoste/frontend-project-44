@@ -37,3 +37,42 @@ export const genMathOp = () => {
       return '*'
   }
 };
+
+export const gcd = (a, b) => {
+  a = Math.abs(a)
+  b = Math.abs(b)
+
+  while (b !== 0) {
+    const temp = b
+    b = a % b
+    a = temp
+  }
+
+  return a
+};
+
+export const genArithmeticProgr = () => {
+  const lengthProgression = Math.floor(Math.random() * (20 - 5 + 1)) + 5
+
+  const stepProgression = Math.floor(Math.random() * (10 - 1 + 1)) + 1 
+
+  const start = Math.floor(Math.random() * 100) 
+
+  let current = start
+
+  const newArr = []
+
+  for (let i = 0; i < lengthProgression; i += 1) {
+    newArr.push(current)
+    current += stepProgression
+  }
+
+  return newArr
+};
+
+export const replaceRandomWithDots = (arr) => {
+  const positionPoints = Math.floor(Math.random() * arr.length) // nosonar - not used for security purposes
+  const newArr = arr.map((item, index) => (index !== positionPoints ? item : '..'))
+
+  return [newArr, arr[positionPoints]]
+};
