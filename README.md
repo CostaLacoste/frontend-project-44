@@ -24,10 +24,11 @@
 
 ## Игра определение НОД
 В этой игре нужно определить наибольший общий делитель 2 слагаемых. Игра завершается после 3 правильных ответов.
+[![asciicast](https://asciinema.org/a/U3DkeIHAGPdb7bKKOPQrwIy8O.svg)](https://asciinema.org/a/U3DkeIHAGPdb7bKKOPQrwIy8O)
 
-
-
-
+## Игра определение простого числа
+В этой игре нужно ответить yes если число простое или no если число имеет больше 2 делителей.
+[![asciicast](https://asciinema.org/a/d0JGFFCI0ljt69yMSXI8sOAEL.svg)](https://asciinema.org/a/d0JGFFCI0ljt69yMSXI8sOAEL)
 
 
 ### Hexlet tests and linter status:
