@@ -10,6 +10,6 @@ const genQuestion = () => {
   const answer = isEven(num) ? 'yes' : 'no'
 
   return [String(num), answer]
-};
+}
 
 runGame(description, genQuestion)
