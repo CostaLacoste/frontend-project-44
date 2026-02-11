@@ -25,4 +25,4 @@
 [![asciicast](https://asciinema.org/a/d0JGFFCI0ljt69yMSXI8sOAEL.svg)](https://asciinema.org/a/d0JGFFCI0ljt69yMSXI8sOAEL)
 
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/CostaLacoste/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/CostaLacoste/frontend-project-44/actions) [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=CostaLacoste_frontend-project-44)
+[![Actions Status](https://github.com/CostaLacoste/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/CostaLacoste/frontend-project-44/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=CostaLacoste_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=CostaLacoste_frontend-project-44)
