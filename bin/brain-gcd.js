@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import runGame from "../src/runGame.js";
-import { gcd, genNum } from "../src/help.js";
+import runGame from '../src/runGame.js';
+import { gcd, genNum } from '../src/help.js';
 
 const genGcdQuest = () => {
     const a = genNum();

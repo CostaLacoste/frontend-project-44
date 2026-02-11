@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { isEven, genNum } from "../src/help.js";
-import runGame from "../src/runGame.js";
+import { isEven, genNum } from '../src/help.js';
+import runGame from '../src/runGame.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 

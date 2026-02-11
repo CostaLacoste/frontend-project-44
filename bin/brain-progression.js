@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import runGame from "../src/runGame.js";
-import { genArithmeticProgr, replaceRandomWithDots } from "../src/help.js";
+import runGame from '../src/runGame.js';
+import { genArithmeticProgr, replaceRandomWithDots } from '../src/help.js';
 
 const genProgrQuest = () => {
     const arr = genArithmeticProgr();
